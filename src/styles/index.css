@@ -10,3 +10,36 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.palo{
+    width:25px;
+    height: 130px;
+    background-color: black;
+    margin-left: 40%;
+}
+.semaforo{
+    background-color: black;
+    padding: 5px;
+}
+.circulo{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.rojo{
+    background-color: red;
+}
+.amarillo{
+    background-color: yellow;
+}
+.verde{
+    background-color: green;
+}
+.glow{
+    box-shadow: 0px 0px 9px 4px #747DE8;;
+}
